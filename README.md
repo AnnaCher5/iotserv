@@ -30,9 +30,9 @@ iotserv:delete(Id).
 ### Остановка сервера
 iotserv:stop().
 
-Пример вызова клиенсткий API
+Пример вызова клиенстких API
 -----
-
+```erlang
 anna@anna-pc:~/Документы/eltex/дз9/iotserv$ rebar3 shell
 ===> Verifying dependencies...
 ===> Analyzing applications...
@@ -94,3 +94,4 @@ Eshell V13.2.2.5  (abort with ^G)
 
 1> iotserv:lookup(1).
 {ok,{iot,1,"Temp1","Room3",24,[{temp,22},{mem_load,56}]}}
+```
