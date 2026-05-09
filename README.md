@@ -27,9 +27,6 @@ iotserv:change(Id, Params).
 
 iotserv:delete(Id).
 
-### Остановка сервера
-iotserv:stop().
-
 Пример вызова клиенстких API
 -----
 ```erlang
