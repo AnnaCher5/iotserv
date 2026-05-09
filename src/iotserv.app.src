@@ -1,0 +1,15 @@
+{application, iotserv, [
+    {description, "IoT Device Server"},
+    {vsn, "0.1.0"},
+    {registered, [iotserv_sup]},
+    {mod, {iotserv_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        jsx
+    ]},
+    {env, [{config_file, "config.json"}]},
+    {modules, []},
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+ ]}.
